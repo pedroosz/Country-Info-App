@@ -30,3 +30,21 @@ npm run dev
 ```
 
 Once it starts, you can navigate to http://localhost:3000/countries
+
+This will run the application in dev mode, which is slower than a production build.
+
+### Running on production mode
+
+To run as production, first build the application using:
+
+```
+npm run build
+```
+
+and then
+
+```
+npm run start
+```
+
+Once it starts, you can navigate to http://localhost:3000/countries
